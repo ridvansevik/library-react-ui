@@ -1,0 +1,21 @@
+/* Temel etiketlerin tüm yüksekliği kaplamasını sağlar */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* React uygulamasının ana kapsayıcısını (#root) esnek bir sütun düzenine sokar
+   ve ekranın en az tamamı kadar yer kaplamasını sağlar. */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* main etiketinin (ana içerik alanı) mevcut boşluğu dolduracak şekilde
+   esnemesini sağlar. Bu, içeriğiniz az bile olsa footer'ı sayfanın
+   en altına iter. */
+main {
+  flex: 1;
+}
