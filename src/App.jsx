@@ -3,8 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import BookListPage from './pages/BookListPage';
 import RegisterPage from './pages/RegisterPage';
-
-const LoginPage = () => <h2> Giriş Sayfası </h2>;
+import LoginPage from './pages/LoginPage';
 
 function App() {
   return (
