@@ -2,9 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import BookListPage from './pages/BookListPage';
+import RegisterPage from './pages/RegisterPage';
 
 const LoginPage = () => <h2> Giriş Sayfası </h2>;
-const RegisterPage = () => <h2> Kayıt Sayfası </h2>;
 
 function App() {
   return (
