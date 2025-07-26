@@ -13,3 +13,7 @@ export const getBooks = (page = 0, size = 10, keyword = '') => {
     },
   });
 };
+
+export const registerUser = (userData) => {
+  return apiClient.post('/auth/register', userData);
+};
